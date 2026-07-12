@@ -2,7 +2,7 @@
 
 Archive of the official firmware for the Attack Shark X65HE Hall Effect keyboard (Device ID 2268), preserved to help recover keyboards stuck in bootloader mode when the vendor's backend fails to serve firmware.
 
-Upon inspecting the internals it is found that the keyboard uses a RY5088 chip, which doesn't have custom flashing options at the time of my troubleshooting(December 2025)
+Upon inspecting the internals it is found that the keyboard uses a **RY5088** chip, which doesn't have custom flashing options at the time of my troubleshooting(December 2025)
 
 **Firmware Version:** v309  
 **Device ID:** 2268  
