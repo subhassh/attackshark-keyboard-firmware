@@ -1,0 +1,37 @@
+MIT License
+
+Copyright (c) 2026 subhassh
+
+This license applies to the original documentation, README content, and any
+scripts authored in this repository ("the Documentation"). Permission is
+hereby granted, free of charge, to any person obtaining a copy of the
+Documentation to deal in the Documentation without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Documentation, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Documentation.
+
+THE DOCUMENTATION IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE DOCUMENTATION OR THE USE OR OTHER DEALINGS
+IN THE DOCUMENTATION.
+
+---
+
+IMPORTANT NOTE ON THE FIRMWARE BINARY
+
+This repository also contains a firmware binary file (firmware/2268_v309.bin)
+that was obtained through the official Attack Shark web updater. This binary
+is proprietary software belonging to the original manufacturer (Attack
+Shark) and is NOT covered by the MIT License above. It is included here
+solely for archival and recovery purposes, to help users whose keyboards
+become stuck in bootloader mode when the vendor's own backend is unable to
+serve the firmware. No rights to the firmware itself are claimed or granted
+by this repository or its author. If the manufacturer objects to the
+distribution of this file, please open an Issue and it will be removed
+promptly.
