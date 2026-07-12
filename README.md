@@ -16,7 +16,7 @@ Upon inspecting the internals it is found that the keyboard uses a RY5088 chip, 
 - After contacting technical support, the backend was restored and firmware v309 became downloadable again, which fixed the keyboard.
 - This repo preserves that firmware so other users aren't stuck if the backend issue recurs.
    
-- ## Symptoms
+## Symptoms
    
 - Keyboard unresponsive
 - Detected only as a bootloader device
