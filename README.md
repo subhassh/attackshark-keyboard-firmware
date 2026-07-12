@@ -106,6 +106,8 @@ or
 certutil -hashfile 2268_v309.bin SHA256
 ```
 
+Verify if it matches:
+
 ```
 SHA256:
 
