@@ -13,15 +13,15 @@ Upon inspecting the internals it is found that the keyboard uses a RY5088 chip, 
 ## Background
 
 - Keyboard got stuck in bootloader mode after a firmware update attempt; the official updater couldn't find a firmware record on the vendor's backend.
-- - After contacting technical support, the backend was restored and firmware v309 became downloadable again, which fixed the keyboard.
-- - This repo preserves that firmware so other users aren't stuck if the backend issue recurs.
+- After contacting technical support, the backend was restored and firmware v309 became downloadable again, which fixed the keyboard.
+- This repo preserves that firmware so other users aren't stuck if the backend issue recurs.
    
 - ## Symptoms
    
-- - Keyboard unresponsive
-- - Detected only as a bootloader device
-- - Official updater can't find firmware
-- - Update can't proceed
+- Keyboard unresponsive
+- Detected only as a bootloader device
+- Official updater can't find firmware
+- Update can't proceed
            
 - ## How to Flash
            
@@ -32,10 +32,11 @@ Upon inspecting the internals it is found that the keyboard uses a RY5088 chip, 
   3. If the updater finds firmware, let it download and flash normally.
  **If the official updater fails to find firmware:**
   5. There isn't yet a verified manual/alternative flashing procedure for this keyboard. If you've successfully flashed manually (e.g. via a bootloader tool) and can document the steps, please open an Issue or Pull Request — this section will be updated once a reliable method is confirmed.
- ## Device Information
-| Keyboard | Attack Shark X65HE |
-| Device ID | 2268 |
-| Firmware | v309 |
+## Device Information
+   | Keyboard | Attack Shark X65HE |
+   |---------|--------|
+   | Device ID | 2268 |
+   | Firmware | v309 |
                    
 ## Verify Firmware (SHA256)
 It's recommended to verify the firmware before using it.
