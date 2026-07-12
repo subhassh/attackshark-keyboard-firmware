@@ -25,50 +25,45 @@ Upon inspecting the internals it is found that the keyboard uses a RY5088 chip, 
            
 - ## How to Flash
            
-- **Normal method (try this first):**
+  **Normal method (try this first):**
            
-- 1. Download and launch the official Attack Shark firmware updater.
+  1. Download and launch the official Attack Shark firmware updater.
   2. When prompted for a device/firmware ID, enter **2268** (this is the X65HE's device ID, which isn't always obvious from the updater UI).
   3. If the updater finds firmware, let it download and flash normally.
-  4. **If the official updater fails to find firmware:**
+ **If the official updater fails to find firmware:**
   5. There isn't yet a verified manual/alternative flashing procedure for this keyboard. If you've successfully flashed manually (e.g. via a bootloader tool) and can document the steps, please open an Issue or Pull Request — this section will be updated once a reliable method is confirmed.
-  6. ## Device Information
-  7. | Item | Value |
-  8. |------|-------|
-  9. | Keyboard | Attack Shark X65HE |
-  10. | Device ID | 2268 |
-  11. | Firmware | v309 |
+ ## Device Information
+| Keyboard | Attack Shark X65HE |
+| Device ID | 2268 |
+| Firmware | v309 |
                    
-  12. ## Verify Firmware (SHA256)
-                   
-  13. It's recommended to verify the firmware before using it.
-  14. Windows:
-  15. ```
-      Get-FileHash .\2268_v309.bin -Algorithm SHA256
-      ```
-      or
-      ```
-      certutil -hashfile 2268_v309.bin SHA256
-      ```
+## Verify Firmware (SHA256)
+It's recommended to verify the firmware before using it.
+Windows:
+```
+Get-FileHash .\2268_v309.bin -Algorithm SHA256
+```
+or
+```
+certutil -hashfile 2268_v309.bin SHA256
+```
+Compare the result against the value in `hashes.txt`.
 
-      Compare the result against the value in `hashes.txt`.
+## Firmware History
+  | Version | Status |
+  |---------|--------|
+  | v308 | Factory firmware (observed in official software) |
+  | v309 | Recovery firmware successfully downloaded and flashed |
 
-      ## Firmware History
+## Repository Structure
 
-      | Version | Status |
-      |---------|--------|
-      | v308 | Factory firmware (observed in official software) |
-      | v309 | Recovery firmware successfully downloaded and flashed |
-
-  ## Repository Structure
-
-  ```
-  firmware/2268_v309.bin
-  screenshots/
-  README.md
-  hashes.txt
-  LICENSE
-  ```
+```
+firmware/2268_v309.bin
+screenshots/
+README.md
+hashes.txt
+LICENSE
+```
 
 ## Disclaimer
 
