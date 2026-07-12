@@ -106,12 +106,10 @@ or
 certutil -hashfile 2268_v309.bin SHA256
 ```
 
-Replace the value below after computing the hash:
-
 ```
 SHA256:
 
-<insert hash here>
+185034679BF6DBC141D106FDDBE5B1C7FC414B3261D9429D71501E5724F75FE7
 ```
 
 ---
