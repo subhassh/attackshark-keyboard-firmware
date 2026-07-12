@@ -23,7 +23,7 @@ Upon inspecting the internals it is found that the keyboard uses a RY5088 chip, 
 - Official updater can't find firmware
 - Update can't proceed
            
-- ## How to Flash
+## How to Flash
            
   **Normal method (try this first):**
            
